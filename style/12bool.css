@@ -109,4 +109,8 @@
     width: calc( 100% / 12 * 1);
 }
 
+/* Additional utilities */
+.centred-text {
+    text-align: center;
+}
 

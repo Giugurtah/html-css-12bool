@@ -1,0 +1,14 @@
+[class*='col'] {
+    background-color: rgb(254, 192, 203);
+    border: 1px solid black;
+    padding: 2px;
+
+    min-height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+[class*='col'] [class*='col'] {
+    background-color: rgb(238, 128, 130);
+    border: 1px solid white;
+}
